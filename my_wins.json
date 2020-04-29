@@ -1,0 +1,7 @@
+{
+  "x": 872,
+  "wins": {
+    "cmd1": "echo cm1",
+    "cmd2": "echo cmd2"
+  }
+}
