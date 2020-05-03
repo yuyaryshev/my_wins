@@ -61,7 +61,9 @@ Now if you need to restart or pause/resume any of your cmd just do
 
 * [UP] -> [Enter] - to restart
 
-***my_wins*** was tested only on Windows 10 and may have issues on other OSes*
+***my_wins*** was tested only on Windows 10 and may have issues on other OSes
+
+***my_wins*** uses json5 to parse it's settings, so you can leave trailing commas or remove quotes around json-keys (see json5 package for details).
 
 ### All options
 
@@ -71,14 +73,14 @@ It's recommended to gitignore "my_wins_personal.json".
 
 ```json
     {
-        startTimeout: 700,
-        x: 0,           
-        y: 0,         
-        height: 120,    
-        width: 500,     
-        wins:{          
-            foo:"my command line 1",
-            baz:{no_run:true, cmd:"my command line 2"}
+        "startTimeout": 700,
+        "x": 0,           
+        "y": 0,         
+        "height": 120,    
+        "width": 500,     
+        "wins":{          
+            "foo":"my command line 1",
+            "baz":{no_run:true, cmd:"my command line 2"}
         }
     }
 ```
