@@ -70,16 +70,17 @@ You can also create "my_wins_personal.json" which can partially or fully overrid
 It's recommended to gitignore "my_wins_personal.json".
 
 ```json
-{
-    "x": 0,
-	"y": 0,
-	"height": 120,
-	"width": 500,
-	"wins": {
-    	"cmd1": "echo cm1",
-    	"cmd2": "echo cmd2"
-	}    
-}
+    {
+        startTimeout: 700,
+        x: 0,           
+        y: 0,         
+        height: 120,    
+        width: 500,     
+        wins:{          
+            foo:"my command line 1",
+            baz:{no_run:true, cmd:"my command line 2"},
+        }
+    }
 ```
 **x,y,height,width** - is first cmd window's position and size
 

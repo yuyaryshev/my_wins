@@ -1,6 +1,6 @@
 {
   "name": "my_wins",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
   "keywords": "automation cmd keysender windows autostart autorun",
   "main": "./index.js",
@@ -19,5 +19,10 @@
   },
   "devDependencies": {
     "prettier": "^2.0.5"
-  }
+  },
+  "homepage": "https://github.com/yuyaryshev/my_wins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuyaryshev/my_wins"
+  },
 }
