@@ -78,7 +78,7 @@ It's recommended to gitignore "my_wins_personal.json".
         width: 500,     
         wins:{          
             foo:"my command line 1",
-            baz:{no_run:true, cmd:"my command line 2"},
+            baz:{no_run:true, cmd:"my command line 2"}
         }
     }
 ```
@@ -86,7 +86,11 @@ It's recommended to gitignore "my_wins_personal.json".
 
 **y** gets incremented by **height** for each next window
 
+**wins** - your windows
 
+- if you enter a string it resolves to {cmd:"string"}
+- **cmd** - your command
+- **no_run** - types in the command, but won't hit "Enter".
 
 *Author - Yuri Yaryshev*, 2020
 
