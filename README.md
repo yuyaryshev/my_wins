@@ -78,23 +78,33 @@ It's recommended to gitignore "my_wins_personal.json".
         "y": 0,         
         "height": 120,    
         "width": 500,     
-        "wins":{          
+        "wins": {          
             "foo":"my command line 1",
-            "baz":{no_run:true, cmd:"my command line 2"}
-        }
+            "baz":{"no_run":true, "cmd":"my command line 2"},
+            "webstorm": {"app":true, "cmd":"C:\\Program Files\\JetBrains\\WebStorm 2019.2\\bin\\webstorm64.exe"}
+            // "commented": "Comments and trailing commas are supported!",
+        },
     }
 ```
-**x,y,height,width** - is first cmd window's position and size
+**x,y,height,width** *number* - is first cmd window's position and size
 
 **y** gets incremented by **height** for each next window
 
-**wins** - your windows
+**wins** *object*- your windows
 
-- if you enter a string it resolves to {cmd:"string"}
-- **cmd** - your command
-- **no_run** - types in the command, but won't hit "Enter".
+- if you enter a string it resolves to `{"cmd":"string"}`
+- **cmd** *string* - your command
+- **no_run** *boolean* - types in the command, but won't hit "Enter".
+- **app** *boolean* - runs yours command as Windows application, not as console. (Incompartible with "no_run").
 
 *Author - Yuri Yaryshev*, 2020
 
 *Unlicensed*
 
+## Changelog
+
+1.0.12
+- Fixed JSON5 parsing errors was silently ignored. 
+
+1.0.11
+- Added "app" flag to run applications instead of console windows. 
