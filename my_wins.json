@@ -1,7 +1,8 @@
 {
   "x": 872,
   "wins": {
-    "cmd1": "echo cm1",
-    "cmd2": "echo cmd2"
-  }
+//    "cmd1": "echo cm1",
+//    "cmd2": "echo cmd2",
+    webstorm: {app:true, cmd:"notepad"}
+  },
 }
