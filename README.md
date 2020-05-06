@@ -81,7 +81,7 @@ It's recommended to gitignore "my_wins_personal.json".
         "wins": {          
             "foo":"my command line 1",
             "baz":{"no_run":true, "cmd":"my command line 2"},
-            "webstorm": {"app":true, "cmd":"C:\\Program Files\\JetBrains\\WebStorm 2019.2\\bin\\webstorm64.exe"}
+            "webstorm": {"app":true, "cmd":"\"C:\\Program Files\\JetBrains\\WebStorm 2019.2\\bin\\webstorm64.exe\""} // notice escaped quotes !
             // "commented": "Comments and trailing commas are supported!",
         },
     }
@@ -102,6 +102,9 @@ It's recommended to gitignore "my_wins_personal.json".
 *Unlicensed*
 
 ## Changelog
+
+1.0.13
+- Fixed webstorm example in readme 
 
 1.0.12
 - Fixed JSON5 parsing errors was silently ignored. 

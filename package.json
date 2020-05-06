@@ -1,6 +1,6 @@
 {
   "name": "my_wins",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
   "keywords": "automation cmd keysender windows autostart autorun",
   "main": "./index.js",
