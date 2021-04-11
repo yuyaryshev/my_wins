@@ -1,8 +1,8 @@
 {
   "name": "my_wins",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
-  "keywords": "automation cmd keysender windows autostart autorun",
+  "keywords": ["automation","cmd","keysender","windows","autostart","autorun"],
   "main": "./index.js",
   "bin": {
     "my_wins": "./index.js"
@@ -13,7 +13,6 @@
   "author": "Yuri Yaryshev",
   "license": "Unlicense",
   "dependencies": {
-    "fs-extra": "^9.0.0",
     "json5": "^2.1.3",
     "keysender": "^1.5.0"
   },
