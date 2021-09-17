@@ -1,11 +1,11 @@
 {
   "name": "my_wins",
-  "version": "1.0.15",
+  "version": "1.1.0",
   "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
   "keywords": ["automation","cmd","keysender","windows","autostart","autorun"],
   "main": "./index.js",
   "bin": {
-    "my_wins": "./index.js"
+    "my_wins": "./bin/index.js"
   },
   "scripts": {
     "start": "node index.js"
