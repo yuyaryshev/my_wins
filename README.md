@@ -87,6 +87,14 @@ Run a single win by name:
 my_wins --run cmd1
 ```
 
+### Version
+
+Print current version:
+
+```shell
+my_wins --version
+```
+
 ### All options
 
 You can also create "my_wins_personal.json" which can partially or fully overrides my_wins.
