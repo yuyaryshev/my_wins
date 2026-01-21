@@ -65,6 +65,28 @@ Now if you need to restart or pause/resume any of your cmd just do
 
 ***my_wins*** uses json5 to parse it's settings, so you can leave trailing commas or remove quotes around json-keys (see json5 package for details).
 
+### Menu mode
+
+Use menu mode to pick multiple commands interactively:
+
+```shell
+my_wins -m
+```
+
+or
+
+```shell
+my_wins --menu
+```
+
+### Run a single command
+
+Run a single win by name:
+
+```shell
+my_wins --run cmd1
+```
+
 ### All options
 
 You can also create "my_wins_personal.json" which can partially or fully overrides my_wins.

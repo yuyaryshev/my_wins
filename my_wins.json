@@ -3,6 +3,7 @@
   "wins": {
 //    "cmd1": "echo cm1",
 //    "cmd2": "echo cmd2",
-    webstorm: {app:true, cmd:"notepad"}
+    webstorm: {app:true, cmd:"notepad"},
+    test_file: "powershell -NoProfile -Command \"Set-Content -Path 'D:/b/Mine/GIT_Work/my_wins/temp/my_wins_test.txt' -Value 'my_wins test'\" && exit"
   },
 }
