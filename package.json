@@ -1,37 +1,37 @@
 {
-  "name": "my_wins",
-  "version": "1.3.2",
-  "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
-  "keywords": [
-    "automation",
-    "cmd",
-    "keysender",
-    "windows",
-    "autostart",
-    "autorun"
-  ],
-  "main": "./index.js",
-  "bin": {
-    "my_wins": "bin/index.js"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "startm": "node index.js -m",
-    "test": "node test/run-test.js"
-  },
-  "author": "Yuri Yaryshev",
-  "license": "Unlicense",
-  "dependencies": {
-    "@sumbat/keysender": "^2.3.0",
-    "inquirer": "^13.2.1",
-    "json5": "^2.2.3"
-  },
-  "devDependencies": {
-    "prettier": "^3.8.1"
-  },
-  "homepage": "https://github.com/yuyaryshev/my_wins",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yuyaryshev/my_wins.git"
-  }
+    "name": "my_wins",
+    "version": "1.4.1",
+    "description": "Automates starting and laying out your console windows for tsc, babel, tests, verdaccio, etc...",
+    "keywords": [
+        "automation",
+        "cmd",
+        "keysender",
+        "windows",
+        "autostart",
+        "autorun"
+    ],
+    "main": "./index.js",
+    "bin": {
+        "my_wins": "bin/index.js"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "startm": "node index.js -m",
+        "test": "node test/run-test.js"
+    },
+    "author": "Yuri Yaryshev",
+    "license": "Unlicense",
+    "dependencies": {
+        "@sumbat/keysender": "^2.3.0",
+        "inquirer": "^13.2.1",
+        "json5": "^2.2.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.8.1"
+    },
+    "homepage": "https://github.com/yuyaryshev/my_wins",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yuyaryshev/my_wins.git"
+    }
 }
